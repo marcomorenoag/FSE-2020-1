@@ -1,0 +1,27 @@
+Nombre:
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio
+
+Respuestas a las preguntas de la práctica:
+a) En los sistemas embebidos se emplean sistemas operativos basados en el kernel de linux debido a:
+1. Linux está disponible para una gran variedad de arquitectura de  Hardware.
+2. Linux soporta una gran variedad de protocolos de red.
+3. Linux se puede personalizar por los usuarios según sus requerimientos.
+4. Linux es de licencia libre (es legal modificarlo).
+5. Linux tiene un gran soporte técnico y comercial.
+6. Tiene muchas herramientas para el desarrollo de Software.
+
+b) Formas de conectarse a una Raspberry Pi:
+1. HDMI a TV.
+2. HDMI a DVI/VGA o a monitor.
+3. Cable análogo a TV
+4. Cable de red a Router.
+5. Cable de red a PC.
+6. Antena WiFi USB a Router.
+7. Antena WiFi a Teléfono.
+8. Cable serial.
+9. Bluetooth.
+10. Conexión remota a través de Internet.
+11. Corriendo scripts en el encendido.
+12. USB a USB.
