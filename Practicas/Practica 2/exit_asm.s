@@ -2,16 +2,16 @@
 @ Syscall defines
 .equ SYSCALL_EXIT,     1
 
-        .global _start
-_start:
-        @Da un salto ahacia la etiqueta exit
-        b exit
 
+        .globl _start
+_start:
+
+        @================================
+        @ Exit
+        @================================
 exit:
 
-	@Mueve el numero 42 hacia el registro r0
+	@ YOUR CODE HERE
 	mov r0,#42
-
-        @Similar a escribir return 0 en C
 	mov r7,#SYSCALL_EXIT
 	swi 0x0

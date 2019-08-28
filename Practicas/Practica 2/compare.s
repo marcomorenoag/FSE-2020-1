@@ -1,10 +1,13 @@
+@ Syscall defines
+.equ SYSCALL_EXIT,     1
+
 .text
 	.global _start
 
 _start:
 	@Mueve al registro el valor de las constantes
-	mov r3, #4
 	mov r4, #5
+	mov r3, #5
 	@Compara los registros
 	cmp r4, r3
 	@Si son iguales salta a la etiqueta igual si no sigue
@@ -25,7 +28,7 @@ mayor:
 	mov	r7,#4
 	mov	r0,#1
 	ldr	r1,=message_mayor
-	mov r2,#25
+	mov 	r2,#27
 	svc	#0
 	mov	r7,#1
 	mov	r0,#0
@@ -36,7 +39,7 @@ menor:
 	mov	r7,#4
 	mov	r0,#1
 	ldr	r1,=message_menor
-	mov 	r2,#25
+	mov 	r2,#27
 	svc	#0
 	mov	r7,#1
 	mov	r0,#0
@@ -46,8 +49,8 @@ menor:
 igual:
 	mov	r7,#4
 	mov	r0,#1
-	ldr	r1,=message_mayor
-	mov 	r2,#23
+	ldr	r1,=message_igual
+	mov 	r2,#24
 	svc	#0
 	mov	r7,#1
 	mov	r0,#0
@@ -55,10 +58,10 @@ igual:
 
 @Establece valor de las constantes
 message_mayor:
-      .ascii "El primer numero es mayor"
+      .ascii "El Primer numero es mayor\n"
 
 message_menor:
-	.ascii "El segundo numero es mayor"
+	.ascii "El segundo numero es mayor\n"
 
 message_igual:
-	.ascii "Los numeros son iguales"
+	.ascii "Los numeros son iguales\n"
