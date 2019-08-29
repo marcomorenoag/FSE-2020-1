@@ -1,3 +1,11 @@
+FSE 2020-1 -- Practica 3
+
+Nombres de los integrantes:
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio
+
+Comentarios y Respuestas a las preguntas 
 
 MANEJANDO CADENAS
 
@@ -29,7 +37,9 @@ PREGUNTAS
 
 (a) ¿Cuál es la diferencia entre las instrucciones swi 0x0, svc #0 y bx lr?
 
-
+SWI es una instrucción que fue sustituida por SVC. Ambas son usadas para solicitar operaciones en modo privilegiado o para acceder a algun recurso del sistema.
+Por el otro lado, bx lr es una instrucción en la que bx hace referencia a un conjunto de instrucciones de intercambio y lr es el registro link de subrutina que almacena la dirección de retorno, por lo tanto, esta instrucción estaría regresando a la dirección almacenada de retorno.
+En este último, a diferencia de swi y svc, bx no hace ninguna llamada al supervisor o solicita el modo privilegiado.
 
 (b) A que se refiere la instrucción .balign 4 en el lenguaje ensamblador para ARM?
 
