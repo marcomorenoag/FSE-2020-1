@@ -1,0 +1,16 @@
+# PRÁCTICA 2 ESP
+## Fecha de entrega: 04/septiembre/2019
+### Integrantes:
+1. Aco Guerrero Iván Rogelio
+2. Hernández Hernández Alejandra
+3. Moreno Guerra Marco Antonio
+
+## a) Objetivo: 
+
+
+## b) Desarrollo: 
+En esta práctica se implemento la configuración básica para la comunicación UART del ESP32, siguiendo la documentación de ESPRESSIF.
+Se estableció el funcionamiento del Driver 0 o UART_NUM_0, que es el que el MCU tiene integrado en el canal de comunicación USB.
+También se empleó el uso de GPIOs para establecer la señal de entrada a la ESP32 (botón) y la de salida (LED) recibida de la PC mediante UART.
+
+[Vídeo del funcionamiento de la Práctica 2] (URL de Youtube)
