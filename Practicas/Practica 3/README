@@ -2,5 +2,23 @@ Fundamentos de Sistemas Embebidos PRACTICA 3
 
 Nombres:
 
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio
 
 Respuesta a las preguntas:
+
+(a) ¿Cuantas formas de configurar y programar hay disponibles en la raspberry pi?
+
+Para programar la raspberry realmente es muy sencillo ya que solo se requiere un editor de textos o la misma consola, para conectarse a la raspberry y programar
+también hay muchas opciones ya que puede realizarse esto mediante cable o incluso hasta de forma remosta (SSH, RDP, VNC) y en cuanto a lenguajes la variedad es muy
+amplia Python se usa para empezar pero con Java se puede hacer de todo.
+
+(b) ¿Que es el sistema de archivos sysfs?
+
+Sysfs se encuentra en /sys su principal utilidad es exportar información sobre dispositivos y sus controladores, también es posible configurar parámetros que son 
+simples ficheros, para cada objeto creado en el modelo de controladores se crea un nuevo directorio en sysfs
+
+(c) ¿Cuáles son los lenguajes de programación más comunes para configurar y programar los GPIO?
+
+Los lenguajes más comunes son Python, Java y C pero adicionalmente estos también pueden ser configurados mediante la línea de comandos.
