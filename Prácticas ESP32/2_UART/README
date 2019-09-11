@@ -6,7 +6,8 @@
 3. Moreno Guerra Marco Antonio
 
 ## a) Objetivo: 
-
+El objetivo de esta práctica es lograr que los alumnos pasen el conocimiento adquirido del UART de forma teórica a práctica haciendo uso del ESP32
+y el lenguahe de programación C
 
 ## b) Desarrollo: 
 En esta práctica se implemento la configuración básica para la comunicación UART del ESP32, siguiendo la documentación de ESPRESSIF.
@@ -14,3 +15,4 @@ Se estableció el funcionamiento del Driver 0 o UART_NUM_0, que es el que el MCU
 También se empleó el uso de GPIOs para establecer la señal de entrada a la ESP32 (botón) y la de salida (LED) recibida de la PC mediante UART.
 
 [Vídeo del funcionamiento de la Práctica 2] (URL de Youtube)
+https://youtu.be/KIlE8Yns7mA
