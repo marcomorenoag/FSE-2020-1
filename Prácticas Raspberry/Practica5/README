@@ -1,0 +1,14 @@
+# FSE 2020-1 -- Practica 5 Raspberry Pi
+
+## Fecha de entrega: 01 de octubre del 2019
+
+## Nombres de los integrantes:
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio 
+
+## Descripción de la práctica
+La presente práctica consistió en crear un script capaz de generar un archivo separado por comas (.csv) y guardarlo en una unidad USB. Esto se desarrolló en la tarjeta de programación Raspberry la cual al ejecutar el programa necesita de los siguientes parámetros
+
+1. Nombre del archivo.
+2. Cantidad de renglones que se repetiría un mensaje como contenido del archivo.
