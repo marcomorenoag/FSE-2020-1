@@ -1,0 +1,13 @@
+# FSE 2020-1 -- Practica 6 Raspberry Pi
+
+## Fecha de entrega: 08 de octubre del 2019
+
+## Nombres de los integrantes:
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio 
+
+## Descripción de la práctica
+La presente práctica consistió en crear un script capaz de generar un archivo separado por comas (.csv) y guardarlo en una unidad USB. El contenido del archivo es la hora provista por un módulo de tiempo real, el DS1307 por el protocolo I2C
+
+Link del video: https://www.youtube.com/watch?v=iqE5xoc0xX8&feature=youtu.be
