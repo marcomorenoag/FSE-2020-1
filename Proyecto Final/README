@@ -1,0 +1,9 @@
+# PROYECTO FINAL DE FSE
+
+## Nombres
+Aco Guerrero Iván Rogelio
+Hernández Hernández Alejandra
+Moreno Guerra Marco Antonio
+
+## Descripción
+Este proyecto realiza la comunicación entre la Raspberry Pi 3B Model con la ESP32 a través de UART, específicamente con el protocolo RS485, simulando la conexión de CAN (Controller Area Network).
